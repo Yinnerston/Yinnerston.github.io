@@ -25,7 +25,14 @@ jobs:
           node-version: 16.x
       - name: Install project
         run: npm install
-      - run: git config --global user.name "Yinnerston"
-      - run: git config --global user.email "nathanzjyin@gmail.com"
       - name: Deploy project
-        run: npm run deploy
+        run: |
+          git config --global user.name $user_name
+          git config --global user.email $user_email
+          git remote set-url origin https://${github_token}@github.com/${repository}
+          npm run deploy
+        env:
+          user_name: 'Yinnerston'
+          user_email: 'nathanzjyin'
+          github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN_90_DAYS }}
+          repository: ${{ github.repository }}
