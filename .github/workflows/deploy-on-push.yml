@@ -1,0 +1,15 @@
+name: deploy-on-push
+
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: Deploy to gh-pages branch
+    runs-on: windows-2022
+    defaults:
+      run:
+        working-directory: ./my-app
+    steps:
+      - run: npm run deploy
