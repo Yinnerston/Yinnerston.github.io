@@ -25,6 +25,7 @@ jobs:
           node-version: 16.x
       - name: Install project
         run: npm install
-
+      - run: git config --global user.name "Yinnerston"
+      - run: git config --global user.email "nathanzjyin@gmail.com"
       - name: Deploy project
         run: npm run deploy
