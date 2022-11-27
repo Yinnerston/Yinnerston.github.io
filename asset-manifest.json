@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b531d469.css",
-    "main.js": "/react-gh-pages/static/js/main.63f912c4.js",
-    "static/js/787.28cb0dcd.chunk.js": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js",
-    "static/media/background.png": "/react-gh-pages/static/media/background.5300f54e1da88ef7caad.png",
-    "static/media/selfie.png": "/react-gh-pages/static/media/selfie.f4c64bd582dfdd65cace.png",
-    "static/media/resume.pdf": "/react-gh-pages/static/media/resume.c6a0e188c2557784e621.pdf",
-    "index.html": "/react-gh-pages/index.html",
-    "main.b531d469.css.map": "/react-gh-pages/static/css/main.b531d469.css.map",
-    "main.63f912c4.js.map": "/react-gh-pages/static/js/main.63f912c4.js.map",
-    "787.28cb0dcd.chunk.js.map": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Yinnerston.github.io/static/css/main.b531d469.css",
+    "main.js": "/Yinnerston.github.io/static/js/main.b426e2d3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Yinnerston.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/background.png": "/Yinnerston.github.io/static/media/background.5300f54e1da88ef7caad.png",
+    "static/media/selfie.png": "/Yinnerston.github.io/static/media/selfie.f4c64bd582dfdd65cace.png",
+    "static/media/resume.pdf": "/Yinnerston.github.io/static/media/resume.c6a0e188c2557784e621.pdf",
+    "index.html": "/Yinnerston.github.io/index.html",
+    "main.b531d469.css.map": "/Yinnerston.github.io/static/css/main.b531d469.css.map",
+    "main.b426e2d3.js.map": "/Yinnerston.github.io/static/js/main.b426e2d3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Yinnerston.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b531d469.css",
-    "static/js/main.63f912c4.js"
+    "static/js/main.b426e2d3.js"
   ]
 }
