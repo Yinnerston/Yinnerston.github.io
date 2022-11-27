@@ -22,8 +22,11 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ matrix.node-version }}\
       - name: Install project
         run: npm install
+
+      - run: git config --global user.email "nathanzjyin@gmail.com"
+      - run: git config --global user.name "Nathan Yin"
       - name: Deploy project
         run: npm run deploy
