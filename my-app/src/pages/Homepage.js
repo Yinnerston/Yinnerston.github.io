@@ -24,9 +24,9 @@ function Homepage() {
                 <img src={selfie} alt="Selfie"></img>
             </div>
             <br></br>
-            <h1>Resume:</h1>
+            <a href={resume} download><h1>Resume:</h1></a>
             <embed src={resume} width="90%" height="1300vh" type="application/pdf" />
-
+            
         </div>
     );
 }
