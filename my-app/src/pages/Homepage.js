@@ -5,6 +5,10 @@ import resume from "assets/resume.pdf"
 import "./Homepage.css"
 import BlogPostList from "components/BlogPostList";
 
+/**
+ * Homepage of the app
+ * @returns 
+ */
 function Homepage() {
     return (
         <div className="homepageDiv" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat", backgroundSize: "cover"}}>

@@ -4,6 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import { SocialIcon } from 'react-social-icons';
 import "./PageHeader.css"
 
+/**
+ * Page header with links to socials.
+ * @returns 
+ */
 function PageHeader()   {
     return (
         <Navbar collapseOnSelect sticky="top"

@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactScrollableList from 'react-scrollable-list'
 
-
+/**
+ * Static Scrollable list containing all my blog posts.
+ * @returns 
+ */
 function BlogPostList() {
     return (
         <ReactScrollableList
