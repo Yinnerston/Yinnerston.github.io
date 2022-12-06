@@ -21,7 +21,7 @@ function BlogPostList() {
                     I'll write a longer follow-up blog post on this, but you can view the dashboard I created <a href="https://datastudio.google.com/s/qd1dkgpHtms">here</a> and my code <a href="https://github.com/Yinnerston/data-engineering-zoomcamp">here</a>.
                 </p>
                 <p>
-                    I'm planning on writing an injestion script to extract data from Twitter/Amazon and using Github Actions to deploy my code to a cloud function. Then to schedule a cronjob with google scheduler.
+                    I'm planning on writing an injestion script to extract data from Twitter/Amazon and using Github Actions to deploy my code to a Google cloud function. Then to schedule a cronjob with google scheduler to continue to injest data into GCS.
                     I'm avoiding Airflow for this project due to the unnecessary complexity and costs it adds.
                 </p>
             </div>
