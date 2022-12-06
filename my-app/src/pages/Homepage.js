@@ -17,7 +17,7 @@ function Homepage() {
             </div>
             <br></br>
             <a href={resume} download><h1>Resume:</h1></a>
-            <embed src={resume} width="90%" height="1300vh" type="application/pdf" />
+            <embed src={resume} width="90%" height="1100vh" type="application/pdf" />
             
         </div>
     );
