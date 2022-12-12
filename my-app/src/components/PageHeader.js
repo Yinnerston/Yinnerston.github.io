@@ -17,10 +17,9 @@ function PageHeader()   {
                 <SocialIcon className="headerIcon" url="https://www.linkedin.com/in/nathanyin/" fgColor="white" />
                 <SocialIcon className="headerIcon" url="https://github.com/Yinnerston" fgColor="white" />
                 <SocialIcon className="headerIcon" network="email" url="mailto: nathanzjyin@gmail.com" fgColor="white" label="nathanzjyin@gmail.com"/>
-                <p className="MyEmail">
+                <p className="headerText">
                     nathanzjyin@gmail.com
-                </p>
-                
+                </p>                
             </Nav>
         </Navbar>
     );
