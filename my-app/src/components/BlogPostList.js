@@ -10,6 +10,14 @@ function BlogPostList() {
         <ReactScrollableList
         listItems={[
             {
+                id: "08/01/23",
+                content:    <div>
+                    <h3>08/01/23</h3>
+                    <p><a href="http://yessoku.xyz">I made a band.</a> I'll be playing as lead guitarist and vocalist. Wish me luck!</p>
+                </div>
+
+            },
+            {
                 id: "06/12/22",
                 content: <div>
                 <h3>6/12/22</h3>

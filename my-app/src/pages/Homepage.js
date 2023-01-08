@@ -1,5 +1,5 @@
 import React from "react";
-import selfie from "assets/selfie.png"
+import bocchi_manager from "assets/bocchi-manager.gif"
 import background from "assets/background.png"
 import resume from "assets/resume.pdf"
 import "./Homepage.css"
@@ -17,7 +17,7 @@ function Homepage() {
                 <div className="textContainer">
                 <BlogPostList></BlogPostList>
                 </div>
-                <img src={selfie} alt="Selfie"></img>
+                <img id="homepageImage" src={bocchi_manager} alt="Homepage Gif"></img>
             </div>
             <br></br>
             <a href={resume} download><h1>Resume:</h1></a>

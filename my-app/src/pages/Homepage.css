@@ -2,6 +2,12 @@ h1 {
     color: #3a4660;
 }
 
+#homepageImage  {
+    border-radius: 50%;
+    max-width: 70vh;
+    height: auto;
+}
+
 .container  {
     display: flex;
     justify-content: flex-start;
