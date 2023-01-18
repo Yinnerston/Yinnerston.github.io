@@ -39,6 +39,21 @@
 						<ul id="blogPostList">
 							<li>
 								<div>
+									<h3>19/01/23</h3>
+									<p>
+										I deployed the production environment of http://memefeed.xyz today. 
+										However, in a few days, I'll be migrating the production to another computer so I can truly separate the development and production databases. Just need to wait for the RAM and new monitor I've ordered to arrive.
+										I have plans for LTS with this project. I want to re-implement popular frontends such as TikTok’s desktop view, take a deep dive into web-application security, add asynchronous task queues for preemptively rendering paginated pages and more.
+										It was pretty fun getting feedback from my friends (the initial beta testers), and iterating on their suggestions t get to the current rendition of memefeed. 
+										I think the next big update will revamp the UI by reimplementing TikTok's alongside adding interest-based feeds. I plan on doing this for Imgur and Pinterest's UIs as well. 
+										Here's what the UI looks like right now: <br>
+										<img src="images/memefeed-ui-1.1.PNG" alt="memefeed-ui-1.1" width="auto" height="250"/>
+										<img src="images/memefeed-ui-1.1-searchform.PNG" alt="memefeed-ui-1.1" width="auto" height="500"/>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div>
 									<h3>08/01/23</h3>
 									<p><a href="https://yessoku.xyz">I made a band.</a> I'll be playing as lead guitarist and vocalist. Wish me luck!</p>
 								</div>
@@ -156,7 +171,15 @@
 							<h2><a href="http://memefeed.xyz">Memefeed and Django:</a></h2>
 						</header>
 						<a href="https://github.com/Yinnerston/memefeed"><p>My github code: <span class="icon solid fa-code"></span></p></a>
-						<p>Here's the project I've been working on for the last couple weeks, from <a href="https://docs.google.com/document/d/1b-w3BSRZHZiHheeYQfSqR3hu9bZwJ27zXd43SrhooRs/edit?usp=sharing">Agile Inception Deck</a> to production! I wanted to have a go at <a href="https://docs.google.com/document/d/16yKagWcxLBqN6zkW80W9SA_MnSaP6UQx528HsZB_KFo/edit?usp=sharing">architecting my own modern website</a>, by creating what I envisioned as a mixup combining the best parts of both Imgur and Reddit. I chose to make something like this because I wanted to learn a new web framework <a href="https://docs.google.com/document/d/1z8wuZIyb6dzow75NXXtIKqE5sUKvpUa3idxDmYmrjvU/edit?usp=sharing">(Django)</a>, <a href="https://docs.google.com/document/d/1Jxf2XsMpnjuhXA7b98VIZoO4OEEOWh7IjrGGk6fBWAc/edit?usp=sharing">implement aggressive caching (redis)</a> and learn how to optimize my PostgreSQL queries in a production setting.</p>
+						<p>Here's the project I've been working on for the last couple weeks, from <a href="https://docs.google.com/document/d/1b-w3BSRZHZiHheeYQfSqR3hu9bZwJ27zXd43SrhooRs/edit?usp=sharing">Agile Inception Deck</a> to production! I wanted to have a go at <a href="https://docs.google.com/document/d/16yKagWcxLBqN6zkW80W9SA_MnSaP6UQx528HsZB_KFo/edit?usp=sharing">architecting my own modern website</a>, 
+							by creating what I envisioned as a mixup combining the best parts of both Imgur and Reddit. 
+							I chose to make something like this because I wanted to learn a new web framework <a href="https://docs.google.com/document/d/1z8wuZIyb6dzow75NXXtIKqE5sUKvpUa3idxDmYmrjvU/edit?usp=sharing">(Django)</a>, 
+							<a href="https://docs.google.com/document/d/1Jxf2XsMpnjuhXA7b98VIZoO4OEEOWh7IjrGGk6fBWAc/edit?usp=sharing">implement aggressive caching (redis)</a> and learn how to optimize my PostgreSQL queries in a production setting.
+						</p>
+						<p>
+							It's currently deployed on one of my PCs, and I don't currently have plans to migrate to the cloud because I want to make my own cluster of networked computers and practice distributed system architecture/deployments.
+
+						</p>
 					</div>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
